@@ -1,0 +1,18 @@
+<?php
+/**
+ * @author Benoit Potier
+ */
+namespace bntptr\example\mystery;
+
+require_once "src/Example/Mystery/Exception/MysteryException.php";
+
+use bntptr\example\mystery\exception\MysteryException;
+
+class Mystery
+{
+    public function random()
+    {
+        throw new MysteryException();
+    }
+}
+

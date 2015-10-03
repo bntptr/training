@@ -1,0 +1,19 @@
+{
+    "require": {
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "4.7.*",
+        "humbug/humbug": "~1.0@dev",
+        "behat/behat": "2.5.*",
+        "phing/phing": "^2.10",
+        "halleck45/phpmetrics": "^1.1",
+        "phpmd/phpmd": "^2.2",
+        "pdepend/pdepend": "^2.0",
+        "sebastian/phpcpd": "^2.0",
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "autoload": {
+        "psr-4": {"Exemple\\": "src/"}
+    }
+}

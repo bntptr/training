@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+/**
+ * source : http://jes.st/2011/phpunit-bootstrap-and-autoloading-classes/
+ */
+class AutoLoader {
+ 
+    static private $classNames = array();
+ 
+    /**
+     * Store the filename (sans extension) &amp; full path of all &quot;.php&quot; files found
+     */
+    public static function registerDirectory($dirName) {
+ 
+        $di = new DirectoryIterator($dirName);
+        foreach ($di as $file) {
+ 
+            if ($file-&gt;isDir() &amp;&amp; !$file-&gt;isLink() &amp;&amp; !$file-&gt;isDot()) {
+                // recurse into directories other than a few special ones
+                self::registerDirectory($file-&gt;getPathname());
+            } elseif (substr($file-&gt;getFilename(), -4) === '.php') {
+                // save the class name / path of a .php file found
+                $className = substr($file-&gt;getFilename(), 0, -4);
+                AutoLoader::registerClass($className, $file-&gt;getPathname());
+            }
+        }
+    }
+ 
+    public static function registerClass($className, $fileName) {
+        AutoLoader::$classNames[$className] = $fileName;
+    }
+ 
+    public static function loadClass($className) {
+        if (isset(AutoLoader::$classNames[$className])) {
+            require_once(AutoLoader::$classNames[$className]);
+        }
+     }
+ 
+}
+ 
+spl_autoload_register(array('AutoLoader', 'loadClass'));</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

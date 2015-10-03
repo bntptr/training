@@ -1,0 +1,40 @@
+<?php
+/**
+ * @author Benoit Potier
+ * @license MIT
+ */
+namespace bntptr\example;
+
+class ExampleEntity
+{
+    private $name;
+
+    private $version;
+
+    public function __construct($name, $version)
+    {
+        $this->name = $name;
+        $this->version = $version;
+    }
+
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function setName($name)
+    {
+        return $this->name = $name;
+    }
+
+    public function getVersion()
+    {
+        return $this->version;
+    }
+
+    public function setVersion($version)
+    {
+        return $this->version = $version;
+    }
+}
+

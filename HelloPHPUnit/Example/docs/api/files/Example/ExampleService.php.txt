@@ -1,0 +1,29 @@
+<?php
+/**
+ * @author Benoit Potier
+ */
+namespace bntptr\example;
+
+class ExampleService
+{
+    private $exampleEntity;
+
+    private $version;
+
+    public function __construct($name, $version)
+    {
+        $this->exampleEntity = $entityFactory
+        $this->version = $version;
+    }
+
+    public function getExampleEntity()
+    {
+        return $this->exampleEntity;
+    }
+
+    public function setExampleEntity($exampleEntity)
+    {
+        return $this->exampleEntity = $exampleEntity;
+    }
+}
+

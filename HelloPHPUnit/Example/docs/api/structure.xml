@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="2.8.5">
+  <partials/>
+  <file path="bootstrap.php" generated-path="bootstrap.html" hash="a4b95f42336f6c05a3aafca552c490aa" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyVjkEKwjAQRfc5xeyqhTrWZRVE0J1uvIDEdLSRmITMFOztTaHiUlz/9x5/s41dVFiWCkrg0CdD0EAnEhvEB/GCBVfLusaM9d5KdQ1BWJKOlfZtpXsJLujW+ntlnGYmxlxCZb1xfUuX4A3Nil3GjhmjtMidYr5WiHCmu2WhBNIRtDaRkZAGkABD/gFTAW7WEatvoWnSJO4/zqzgZMbqbwoPL/2Mjv6j8TSM4zBab+ZSa00=</source>
+  </file>
+  <file path="Example/ExampleEntityFactory.php" generated-path="Example.ExampleEntityFactory.html" hash="ba61d31d6b5f00a6a42f69d42772574f" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="author" line="0" description="Benoit Potier"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="bntptr\example" line="9" package="Default">
+      <extends/>
+      <name>ExampleEntityFactory</name>
+      <full_name>\bntptr\example\ExampleEntityFactory</full_name>
+      <docblock line="9">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="9" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="11" package="Default">
+        <name>__construct</name>
+        <full_name>\bntptr\example\ExampleEntityFactory::__construct()</full_name>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="bntptr\example" line="15" package="Default">
+        <name>createEntity</name>
+        <full_name>\bntptr\example\ExampleEntityFactory::createEntity()</full_name>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$version</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="9" code="PPC:ERR-50005">No summary for class \bntptr\example\ExampleEntityFactory</error>
+      <error line="11" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="15" code="PPC:ERR-50015">Argument $name is missing from the Docblock of createEntity</error>
+      <error line="15" code="PPC:ERR-50015">Argument $version is missing from the Docblock of createEntity</error>
+      <error line="15" code="PPC:ERR-50008">No summary for method createEntity()</error>
+    </parse_markers>
+    <source>eJxljsFqw0AMRO/6ChFysE2pPyCFhoBz7gcUzEZVycJGu2i1bU3xv3fTpGDTuegwb0bz9JzOCfquA+xw74qdo+KBJXrDl2ietRo9iLtwTo4YT2LJ9JW/3CUF3gF4oVDeeIxC3GyyUj/cvL87iHmbHuufTVt5Ci5nXHlHRxZ1gm/AqlROwRO+FyHzUXAcKUo2LWRN+0vcuBmWeDZnyxQpO7v3N9vr/gfcfrDmai5brlK2ooLCn+td/3K7++MZfgBWm2V+</source>
+  </file>
+  <file path="Example/ExampleEntity.php" generated-path="Example.ExampleEntity.html" hash="bfef04c2fc6908e04d64360cd4d17b5d" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="author" line="0" description="Benoit Potier"/>
+      <tag name="license" line="0" description="MIT" link="http://opensource.org/licenses/MIT"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="bntptr\example" line="8" package="Default">
+      <extends/>
+      <name>ExampleEntity</name>
+      <full_name>\bntptr\example\ExampleEntity</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <property static="false" visibility="private" namespace="bntptr\example" line="10" package="Default">
+        <name>$name</name>
+        <full_name>\bntptr\example\ExampleEntity::name</full_name>
+        <default></default>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="private" namespace="bntptr\example" line="12" package="Default">
+        <name>$version</name>
+        <full_name>\bntptr\example\ExampleEntity::version</full_name>
+        <default></default>
+        <docblock line="12">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="14" package="Default">
+        <name>__construct</name>
+        <full_name>\bntptr\example\ExampleEntity::__construct()</full_name>
+        <docblock line="14">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$version</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="20" package="Default">
+        <name>getName</name>
+        <full_name>\bntptr\example\ExampleEntity::getName()</full_name>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="25" package="Default">
+        <name>setName</name>
+        <full_name>\bntptr\example\ExampleEntity::setName()</full_name>
+        <docblock line="25">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="30" package="Default">
+        <name>getVersion</name>
+        <full_name>\bntptr\example\ExampleEntity::getVersion()</full_name>
+        <docblock line="30">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="35" package="Default">
+        <name>setVersion</name>
+        <full_name>\bntptr\example\ExampleEntity::setVersion()</full_name>
+        <docblock line="35">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$version</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \bntptr\example\ExampleEntity</error>
+      <error line="14" code="PPC:ERR-50015">Argument $name is missing from the Docblock of __construct</error>
+      <error line="14" code="PPC:ERR-50015">Argument $version is missing from the Docblock of __construct</error>
+      <error line="14" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="20" code="PPC:ERR-50008">No summary for method getName()</error>
+      <error line="25" code="PPC:ERR-50015">Argument $name is missing from the Docblock of setName</error>
+      <error line="25" code="PPC:ERR-50008">No summary for method setName()</error>
+      <error line="30" code="PPC:ERR-50008">No summary for method getVersion()</error>
+      <error line="35" code="PPC:ERR-50015">Argument $version is missing from the Docblock of setVersion</error>
+      <error line="35" code="PPC:ERR-50008">No summary for method setVersion()</error>
+      <error line="10" code="PPC:ERR-50007">No summary for property $name</error>
+      <error line="12" code="PPC:ERR-50007">No summary for property $version</error>
+    </parse_markers>
+    <source>eJyNUMluAjEMvecrfOBARyA+oBtC4tBDqx4QJyQUIpeJNDhR7KAixL+TzAAtaFh8s5/fYr+8+9KrQVEoKGCoo5QuwAjJWYFvJxZDDVTWIDHC58ck9QNFeoXstUFYkHgJM/zVK1/hs1Km0swwbvoxiZWN2ipI5YNda0HoZHbaPJutMbB1dBzHRbKEn0hG0hTmc+OIJUQj3ZreOzGeakLjkKsjpeX+W16C16PXBXigZvzkm+Fdu/sS5SvJdC+tAkoM9N/xpgwfZOpM97XO01+PNm0uuJPukTv5T+zad1tFW/64U3tIVbNW</source>
+  </file>
+  <file path="Money.php" generated-path="Money.html" hash="09a0730cbf0e369188b67877a439e991" package="Default">
+    <docblock line="0">
+      <description>source : https://phpunit.de/getting-started.html</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="bntptr" line="7" package="Default">
+      <extends/>
+      <name>Money</name>
+      <full_name>\bntptr\Money</full_name>
+      <docblock line="7">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="7" description="Default"/>
+      </docblock>
+      <property static="false" visibility="private" namespace="bntptr" line="9" package="Default">
+        <name>$amount</name>
+        <full_name>\bntptr\Money::amount</full_name>
+        <default></default>
+        <docblock line="9">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr" line="11" package="Default">
+        <name>__construct</name>
+        <full_name>\bntptr\Money::__construct()</full_name>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$amount</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr" line="16" package="Default">
+        <name>getAmount</name>
+        <full_name>\bntptr\Money::getAmount()</full_name>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr" line="21" package="Default">
+        <name>negate</name>
+        <full_name>\bntptr\Money::negate()</full_name>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="7" code="PPC:ERR-50005">No summary for class \bntptr\Money</error>
+      <error line="11" code="PPC:ERR-50015">Argument $amount is missing from the Docblock of __construct</error>
+      <error line="11" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="16" code="PPC:ERR-50008">No summary for method getAmount()</error>
+      <error line="21" code="PPC:ERR-50008">No summary for method negate()</error>
+      <error line="9" code="PPC:ERR-50007">No summary for property $amount</error>
+    </parse_markers>
+    <source>eJx9kMFuwjAQRO/+ij1wCJESq1egRf2AfgMyZptYStaWPQZVFf9ek7SqQMAed2aednazDX1Quq4V1ZR8jpZpRT0Q0krromVxaA+sOwacdE2CieBD22McSkYrMSOnYEpuLwiIa6XsYFKiDy/8pb4VlQnRHQ2YFmb0WVA80zbvB2fpM4uF80K7nfWSELNF9etcTsYZcpkFepeat1mk13/gRTzfx5bT3ydXdUuLjBzlGvoUJdyVGo84wqe5ddW8lHdeYZd/3LP6Ac9IcFY=</source>
+  </file>
+  <file path="Calculator/CalculatorServiceFactory.php" generated-path="Calculator.CalculatorServiceFactory.html" hash="d41d8cd98f00b204e9800998ecf8427e" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+  </file>
+  <file path="Example/ExempleServiceFactory.php" generated-path="Example.ExempleServiceFactory.html" hash="f919936d0154ef7b24106da82964cdbc" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="author" line="0" description="Benoit Potier"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="bntptr\example" line="9" package="Default">
+      <extends/>
+      <name>ExampleServiceFactory</name>
+      <full_name>\bntptr\example\ExampleServiceFactory</full_name>
+      <docblock line="9">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="9" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example" line="11" package="Default">
+        <name>__construct</name>
+        <full_name>\bntptr\example\ExampleServiceFactory::__construct()</full_name>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="bntptr\example" line="15" package="Default">
+        <name>createService</name>
+        <full_name>\bntptr\example\ExampleServiceFactory::createService()</full_name>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="9" code="PPC:ERR-50005">No summary for class \bntptr\example\ExampleServiceFactory</error>
+      <error line="11" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="15" code="PPC:ERR-50008">No summary for method createService()</error>
+    </parse_markers>
+    <source>eJxdjr0KAkEMhPs8RbA6r/AeQEERtBZshWONERfO7JLN+oPcu7t6COo0KeabzMzm8RShqWvAGhcu2ykoLlmCN9wE86zFaEDcmVN0xLgXi6Y7vrlz7HgK4IW6fOA2CHE1SkrNavA+d8t68cSTUjQalwB1LiX8NdeOLOgdHoBFMe87T3jMQuaDYNtSkGSayarxmxi4Hr7xZM6+U6Ts7FPwk3tJ2bIKCl//plRl4/C8hycujlxY</source>
+  </file>
+  <file path="Calculator/CalculatorService.php" generated-path="Calculator.CalculatorService.html" hash="573b25fc49d5bbfdcae6afa6aaae3cec" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJy1UMtqwzAQvPsrhpySHCTa3kophj6gh9JLoWdZ3tiilmSkdV0T8u+VFZeSkGt1WUk7OzM7kNttAWzx3poIS9z6GtoPjiO4JXithxDIaYrwOzx7L2Z4HvloycF5WB9o7mC9LzvjPtEy97dS0reyfUdCeyvtJCsVDhuohG3MV5rkpJh5doPTbLzDaLoOqq7hHUFlAwlth8hQ3aimiIpy78RGGYiH4GAcU0MBL642WjEdF3CDrdJn8m6YbMxjsvjTzLuuNwX2qZPOnRDivsChSM/fbE62GsdR9G1fey18aGSqUXazHMtAOzpmJY8IyapJ3TQtWrYdHr0eLDlWWfo8z3IJDEu9mnXwMBs0rkn7QWXP4hR9Ie3lfj0TxAsMqCYo3IQavQo8nRGuXie8jQ5PC2MiWSH96YVH/GPsP6261E4=</source>
+  </file>
+  <file path="Example/Mystery/Exception/MysteryException.php" generated-path="Example.Mystery.Exception.MysteryException.html" hash="460d956910f3f19356ba037b72373e1f" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="author" line="0" description="Benoit Potier"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="bntptr\example\mystery\exception" line="7" package="Default">
+      <extends>\Exception</extends>
+      <name>MysteryException</name>
+      <full_name>\bntptr\example\mystery\exception\MysteryException</full_name>
+      <docblock line="7">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="7" description="Default"/>
+      </docblock>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="7" code="PPC:ERR-50005">No summary for class \bntptr\example\mystery\exception\MysteryException</error>
+    </parse_markers>
+    <source>eJw9yUEKwjAQRuH9nGLW2fQACkrBpeABshnjDw00yZAZoaV4dwtil+9954tOSkMIxIGv8vapdR5RW3Z+NM/oOwxUpcBUEvhZXb1HLFJ0RiyrOfq6d4J6bvVElGYx4/tPbn9gLI76Mo7Hoo3oQ19+uS4j</source>
+  </file>
+  <file path="AutoLoader.php" generated-path="AutoLoader.html" hash="cb5eee3a04b894e4f662645f5f2d0b4c" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="" line="5" package="Default">
+      <extends/>
+      <name>AutoLoader</name>
+      <full_name>\AutoLoader</full_name>
+      <docblock line="5">
+        <description>source : http://jes.st/2011/phpunit-bootstrap-and-autoloading-classes/</description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="true" visibility="private" namespace="" line="7" package="Default">
+        <name>$classNames</name>
+        <full_name>\AutoLoader::classNames</full_name>
+        <default>array()</default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="12" package="Default">
+        <name>registerDirectory</name>
+        <full_name>\AutoLoader::registerDirectory()</full_name>
+        <docblock line="12">
+          <description>Store the filename (sans extension) &amp; full path of all ".php" files found</description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$dirName</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="28" package="Default">
+        <name>registerClass</name>
+        <full_name>\AutoLoader::registerClass()</full_name>
+        <docblock line="28">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$className</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$fileName</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="" line="32" package="Default">
+        <name>loadClass</name>
+        <full_name>\AutoLoader::loadClass()</full_name>
+        <docblock line="32">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$className</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="12" code="PPC:ERR-50015">Argument $dirName is missing from the Docblock of registerDirectory</error>
+      <error line="28" code="PPC:ERR-50015">Argument $className is missing from the Docblock of registerClass</error>
+      <error line="28" code="PPC:ERR-50015">Argument $fileName is missing from the Docblock of registerClass</error>
+      <error line="28" code="PPC:ERR-50008">No summary for method registerClass()</error>
+      <error line="32" code="PPC:ERR-50015">Argument $className is missing from the Docblock of loadClass</error>
+      <error line="32" code="PPC:ERR-50008">No summary for method loadClass()</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $classNames</error>
+    </parse_markers>
+    <source>eJyNVFFv0zAQfs+vOKZqSapm3hBPDQUhJiSkCSHxiFDlJpfGEOzgswcT2n/fOc2StN2gJ0Vx7Lvvvrv74tdv27qNxHwewRzIeFsgLKF2rl0K8R3pgpx4eXl1JdjNa+WyjTGOnJVtJnWZSe9MY2Sp9DYrGkmEJBhJRN0HvOPjGz5GC38jiICNnHSqgNaqW+kQZp3jJ/kTCVYgrZV3SZr3vh2tYHP44oxFcDVCpRrU7A8JSU2AfxxqUkancA6VbxpopavBVCB5fXbBvM+6GILKeF32gKJ7t37TMJmeU+V14RgJLG4VObTXymLBie+SWalsIJkOdQTjXSat8TcMnh85TPJijMgH94pLkEUN4QwkwSzQ2kcMpir2CEfZG0UMnHBl5/Bi2LpR+sfh3rVxSdpBHZgQXE3hLSEo7QyUPVHF/TDcTss9lRokVFwFtVgo2YDRSEdIhE21XD7Rmh2HLbrP3PgwGWaS74XfAzaEoS7yGxbPJOZDP80kXUD2KoXVagVxGFr8TDUkb3c62CmsU4IYZw4htpv3dNwTGwXHo/snncuOUX6EMIp6bMf7AJqM2As4pS3R/uq+F8J/VPlMrkGeT9Cc/GVfx/U37sAQmp9CIfzqh+mnOcOIFV8CLjkh+5FeLf7yLKu10QWeBJAfNLCjHx5qm/Xj1bR+7Fuyu13iETleQDyUFPN4HgBjvYLo</source>
+  </file>
+  <file path="Example/ExampleService.php" generated-path="Example.ExampleService.html" hash="651e17ed4f85f6415cdc10e9b6d4fc38" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyVUEsKwjAQ3ecUs+hCi+IB/CLUteBWkBhGG2iTMJkURby7af1gSxGcVTLvm8yWLndikqYCUljJwLklWKOxmmFrWSNFYCKMLNE7qRCOhh3THi+ydAVOhVCF9B6y532HVGmF4iYgjiNdSUZIXuzMsOZr1LTACslra97rcCy0glMwiuMWDgdljWcKigdJXWP0UQwbwTOqnoRz7ceLVhjMY3pz2kjFlq5d9sur5n2K1PC9v84ZOfv2H3RLEHIg09vlp7HvGrc/7Y+Y5sl9uXfxAL4bnOk=</source>
+  </file>
+  <file path="Example/Mystery/Mystery.php" generated-path="Example.Mystery.Mystery.html" hash="e7c6d6804ded70fc376673c1079972fa" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="author" line="0" description="Benoit Potier"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="MysteryException">\bntptr\example\mystery\exception\MysteryException</namespace-alias>
+    <class final="false" abstract="false" namespace="bntptr\example\mystery" line="11" package="Default">
+      <extends/>
+      <name>Mystery</name>
+      <full_name>\bntptr\example\mystery\Mystery</full_name>
+      <docblock line="11">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="11" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="bntptr\example\mystery" line="13" package="Default">
+        <name>random</name>
+        <full_name>\bntptr\example\mystery\Mystery::random()</full_name>
+        <docblock line="13">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="11" code="PPC:ERR-50005">No summary for class \bntptr\example\mystery\Mystery</error>
+      <error line="13" code="PPC:ERR-50008">No summary for method random()</error>
+    </parse_markers>
+    <source>eJx1jk0KwjAQhfdziqGrtgt7gAqK4FLwAAVJ40gDbRInCbVI7276o4uCs3vvffNm9gfbWCjyHDDHowi+MYwn0kZ5vBqviGNQgBYdOSskYa299VzRS3S2paobnCceSgCmZ1BMN6MjlTiWxXlhisvCRC3JemX01/kZu/hEEjuC+3cg6pWttstxT7bCOVwDeAPGsaFulcRH0HKikIW+my7N5nBBpvENmx419bjtTbNypkYY4QNQ/mYi</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <namespace name="bntptr" full_name="bntptr">
+    <namespace name="example" full_name="bntptr\example">
+      <namespace name="mystery" full_name="bntptr\example\mystery">
+        <namespace name="exception" full_name="bntptr\example\mystery\exception"/>
+      </namespace>
+    </namespace>
+  </namespace>
+  <deprecated count="0"/>
+</project>

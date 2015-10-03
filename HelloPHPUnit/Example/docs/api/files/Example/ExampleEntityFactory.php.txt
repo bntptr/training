@@ -1,0 +1,20 @@
+<?php
+/**
+ * @author Benoit Potier
+ */
+namespace bntptr\example;
+
+include_once("src/Example/ExampleEntity.php");
+
+class ExampleEntityFactory
+{
+    public function __construct()
+    {
+    }
+
+    public static function createEntity($name, $version)
+    {
+        return new ExampleEntity($name, $version);
+    }
+}
+

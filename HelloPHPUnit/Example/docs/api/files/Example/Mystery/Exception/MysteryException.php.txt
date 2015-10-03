@@ -1,0 +1,11 @@
+<?php
+/**
+ * @author Benoit Potier
+ */
+namespace bntptr\example\mystery\exception;
+
+class MysteryException extends \Exception
+{
+
+}
+
