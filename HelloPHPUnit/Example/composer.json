@@ -1,5 +1,6 @@
 {
     "require": {
+    	"php": ">= 5.5",
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
@@ -14,6 +15,6 @@
         "phpdocumentor/phpdocumentor": "2.*"
     },
     "autoload": {
-        "psr-4": {"Exemple\\": "src/"}
+        "psr-4": {"Example\\": "src/"}
     }
 }
